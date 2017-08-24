@@ -8,8 +8,8 @@ Dependencies:
 
 | Alias           | Type                                     |
 |-----------------|------------------------------------------|
-| `Value::Value`  | `Int|String|Vector|Map`                  |
-| `Value::Int`    | `uint32_t`                               |
+| `Value::Value`  | `Int\|String\|Vector\|Map`               |
+| `Value::Int`    | `int32_t`                                |
 | `Value::String` | `std::string`                            |
 | `Value::Vector` | `std::vector<Value>`                     |
 | `Value::Map`    | `std::unordered_map<std::string, Value>` |

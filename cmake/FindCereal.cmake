@@ -1,0 +1,4 @@
+include(FindPackageHandleStandardArgs)
+find_path(Cereal_INCLUDE_DIR cereal)
+find_package_handle_standard_args(Cereal DEFAULT_MSG Cereal_INCLUDE_DIR)
+
